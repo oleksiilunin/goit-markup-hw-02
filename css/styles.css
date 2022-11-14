@@ -1,0 +1,17 @@
+/* Основний колір тексту #212121 */
+/* Вторинний колір тексту #757575 */
+/* Білий колір #ffffff */
+/* Колір акценту #2196F3 */
+/* Чорний колір #000000 на логотипі WebStudio */ 
+/* Колір пошти та телефону в футері #ffffff 60% */
+/* Колір фону Слогана и Футера #2F303A */
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --logo-header: #000000;
+    --logo-footer: #ffffff;
+    --slogan-background-color: #2F303A;
+    --footer-background-color: #2F303A;
+}
