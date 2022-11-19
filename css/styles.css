@@ -6,12 +6,171 @@
 /* Колір пошти та телефону в футері #ffffff 60% */
 /* Колір фону Слогана и Футера #2F303A */
 
+/* ont-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: 'Roboto',
+            sans-serif;
+}
+
 :root {
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --tertiary-text-color: #FFFFFF;
     --accent-color: #2196F3;
     --logo-header: #000000;
-    --logo-footer: #ffffff;
-    --slogan-background-color: #2F303A;
-    --footer-background-color: #2F303A;
+    --secondary-background-color: #2F303A;
+    --footer-text-color: #FFFFFF96;
+    --btn-filter-bcg-color: #F5F4FA;
 }
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: none;
+}
+
+/* Header */
+
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo-header {
+    color: var(--logo-header);
+}
+
+/* Site nav */
+
+.site-nav-item .current {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* .contacts-list .link {
+    color: var(--primary-text-color);
+} */
+
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Main */
+
+.slogan {
+    background-color: var(--secondary-background-color);
+}
+
+.slogan-title {
+    color: var(--tertiary-text-color);
+}
+
+.btn-order {
+    color: var(--tertiary-text-color);
+    background-color: var(--accent-color);
+    border-width: 0px;
+    font-family: 'Roboto',
+            sans-serif;
+}
+
+    /* Section */
+
+.section-title {
+    color: var(--secondary-text-color);
+}
+
+        /* Advantages */
+
+.advantages .title {
+    color: var(--secondary-text-color);
+}
+
+        /* Team */
+
+.team .title {
+    color: var(--secondary-text-color);
+}
+
+        /* Portfolio - Filter */
+
+.btn-filter {
+    color: var(--secondary-text-color);
+    background-color: var(--btn-filter-bcg-color);
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    background-color: var(--accent-color);
+    color: var(--tertiary-text-color)
+}
+
+/* .btn.active {
+    background-color: var(--accent-color);
+    color: var(--tertiary-text-color)
+} */
+
+        /* Portfolio - Projects */
+
+.projects .title {
+    color: var(--secondary-text-color);
+}
+
+.projects .type {
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.logo-footer {
+    color: var(--tertiary-text-color);
+}
+
+    /* Address */
+
+.address .link {
+    color: var(--footer-text-color);
+}
+
+.address .link:hover,
+.address .link:focus {
+    color: var(--footer-text-color);
+}
+
+.address .location {
+    color: var(--tertiary-text-color);
+}
+
+/* .address .location:hover,
+.address .location:focus {
+    color: var(--tertiary-text-color);
+} */
