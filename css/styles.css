@@ -120,6 +120,8 @@ body {
     line-height: 1.88;
     display: flex;
     letter-spacing: 0.06em;
+
+    cursor: pointer;
 }
 
     /* Section */
@@ -180,6 +182,8 @@ body {
     font-size: 16px;
     line-height: 1.62;    
     letter-spacing: inherit;
+
+    cursor: pointer;
 }
 
 .btn-filter:hover,
@@ -227,7 +231,7 @@ body {
 
 .address .link:hover,
 .address .link:focus {
-    color: var(--footer-text-color);
+    color: var(--accent-color);
 }
 
 .address .location {
