@@ -159,6 +159,10 @@ body {
 
         /* Team */
 
+.team {
+    background-color: #F5F4FA;
+}
+    
 .team .title {
     color: var(--secondary-text-color);
 
