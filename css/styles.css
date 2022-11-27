@@ -25,9 +25,8 @@ body {
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+    
+    font-size: 14px;    
 }
 
 .list {
@@ -49,6 +48,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-header {
@@ -58,6 +58,7 @@ body {
 /* Site nav */
 
 .site-nav {
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -129,10 +130,10 @@ body {
 .section-title {
     color: var(--secondary-text-color);
 
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .hidden {
@@ -144,14 +145,17 @@ body {
 .advantages .title {
     color: var(--secondary-text-color);
 
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .advantages .text {
+    font-weight: 400;
+    font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
         /* Team */
@@ -163,12 +167,15 @@ body {
     font-size: 16px;
     line-height: 1.19; 
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team .text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
         /* Portfolio - Filter */
@@ -182,6 +189,7 @@ body {
     font-size: 16px;
     line-height: 1.62;    
     letter-spacing: inherit;
+    letter-spacing: 0.03em;
 
     cursor: pointer;
 }
@@ -198,7 +206,6 @@ body {
 .projects .title {
     color: var(--secondary-text-color);
 
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;    
     letter-spacing: 0.06em;
@@ -207,7 +214,10 @@ body {
 .projects .type {
     color: var(--primary-text-color);
 
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
@@ -225,8 +235,10 @@ body {
 .address .link {
     color: var(--footer-text-color);
 
+    font-weight: 400;
     font-style: normal;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .address .link:hover,
