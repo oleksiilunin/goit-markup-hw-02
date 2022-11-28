@@ -14,14 +14,16 @@
     --accent-color: #2196F3;
     --logo-header: #000000;
     --logo-footer: #FFFFFF;
+    --main-background-color: #FFFFFF;
     --secondary-background-color: #2F303A;
+    --team-backgrond-color: #F5F4FA;
     --footer-text-color: #FFFFFF96;
     --btn-accent-text-color: #FFFFFF;
     --btn-filter-bcg-color: #F5F4FA;
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
@@ -136,8 +138,17 @@ body {
     letter-spacing: 0.03em;
 }
 
-.hidden {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
         /* Advantages */
@@ -160,7 +171,7 @@ body {
         /* Team */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--team-backgrond-color);
 }
     
 .team .title {
