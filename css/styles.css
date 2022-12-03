@@ -73,7 +73,9 @@ p {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
     width: 1200px;
+
     outline: 2px solid tomato;
 }
 
@@ -135,9 +137,12 @@ p {
 /* Main */
 
 .slogan {
-padding: 200px 452px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 
     background-color: var(--secondary-background-color);
+
+    text-align: center;
 }
 
 .slogan-title { 
@@ -148,7 +153,6 @@ padding: 200px 452px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     outline: 2px solid tomato;
@@ -222,9 +226,22 @@ padding: 200px 452px;
     letter-spacing: 0.03em;
 }
 
+        /*Our Work*/
+
+.work {
+    padding-bottom: 94px;
+}
+
+.work .list {
+    margin-top: 50px;
+}
+
         /* Team */
 
 .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
     background-color: var(--team-backgrond-color);
 }
     
@@ -236,6 +253,12 @@ padding: 200px 452px;
     line-height: 1.19; 
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.team .list {
+    margin-top: 50px;
+
+    text-align: center;
 }
 
 .team .text {
@@ -293,6 +316,9 @@ padding: 200px 452px;
 /* Footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--secondary-background-color);
 }
 
@@ -302,7 +328,14 @@ padding: 200px 452px;
 
     /* Address */
 
+.address {
+    margin-top: 20px;
+}
+
 .address .link {
+    display: block;
+    margin-top: 10px;
+
     color: var(--footer-text-color);
 
     font-weight: 400;
@@ -317,6 +350,8 @@ padding: 200px 452px;
 }
 
 .address .location {
+    margin-top: 0;
+
     color: var(--location-text-color);
 }
 

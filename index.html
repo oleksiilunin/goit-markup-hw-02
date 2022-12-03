@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
 </head>
@@ -61,48 +62,54 @@
         </section>
 
         <!--Чим ми займаємося-->
-        <section>
-            <h2 class="section-title">Чим ми займаємося</h2>
-            <ul class="list">
+        <section class="work">
+            <div class="container">
+                <h2 class="section-title">Чим ми займаємося</h2>
+                <ul class="list">
                 <li><img width="370" src="./images/printing-code-on-tablet-using-keyboard.jpg" alt="Розробник друкує код згідно з блок-схемою."></li>
                 <li><img width="370" src="./images/selection-layout-on-laptop-screen.jpg" alt="Дівчина на ноутбуці підбирає дизайн відображення контенту на смартфоні."></li>
                 <li><img width="370" src="./images/hexagonal-palette-ontablet-screen.jpg" alt="Дизайнер підбирає кольорову гамму на планшеті."></li>
-            </ul>
+                </ul>
+            </div>
         </section>
 
         <!--Наша команда-->
         <section class="team">
-            <h2 class="section-title">Наша команда</h2>
-            <ul class="list">
-                <li><img width="270" src="./images/ihor-demianenko.jpg" alt="Дизайнер проекту.">
-                    <h3 class="title">Ігор Дем'яненко</h3>
-                    <p class="text" lang="en">Product Designer</p>
-                </li>
-                <li><img width="270" src="./images/olha-riepina.jpg" alt="Фронтенд розробник.">
-                    <h3 class="title">Ольга Рєпіна</h3>
-                    <p class="text" lang="en">Frontend Developer</p>        
-                </li>
-                <li><img width="270" src="./images/mykola-tarasov.jpg" alt="Маркетолог.">
-                    <h3 class="title">Микола Тарасов</h3>
-                    <p class="text" lang="en">Marketing</p>
-                </li>
-                <li><img width="270" src="./images/mykhailo-yermakov.jpg" alt="Маркетолог.">
-                    <h3 class="title">Михайло Єрмаков</h3>
-                    <p class="text" lang="en">Marketing</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="section-title">Наша команда</h2>
+                <ul class="list">
+                    <li><img width="270" src="./images/ihor-demianenko.jpg" alt="Дизайнер проекту.">
+                        <h3 class="title">Ігор Дем'яненко</h3>
+                        <p class="text" lang="en">Product Designer</p>
+                     </li>
+                    <li><img width="270" src="./images/olha-riepina.jpg" alt="Фронтенд розробник.">
+                        <h3 class="title">Ольга Рєпіна</h3>
+                        <p class="text" lang="en">Frontend Developer</p>        
+                    </li>
+                    <li><img width="270" src="./images/mykola-tarasov.jpg" alt="Маркетолог.">
+                        <h3 class="title">Микола Тарасов</h3>
+                        <p class="text" lang="en">Marketing</p>
+                    </li>
+                    <li><img width="270" src="./images/mykhailo-yermakov.jpg" alt="Маркетолог.">
+                        <h3 class="title">Михайло Єрмаков</h3>
+                        <p class="text" lang="en">Marketing</p>
+                    </li>
+                </ul>
+            </div>
         </section>      
     </main>
     <!--Підвал сайту-->
     <footer class="footer">
-        <a lang="en" href="/" class="logo">Web<span class="logo-footer">Studio</span></a>
-        <address class="address">
-            <ul class=" list">
+        <div class="container">
+            <a lang="en" href="/" class="logo">Web<span class="logo-footer">Studio</span></a>
+            <address class="address">
+            <ul class="list">
                 <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="location link">м. Київ, пр-т Лесі Українки, 26</a></li>
                 <li><a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="tel link">+38 096 111 11 11</a></li>
             </ul>
-        </address>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
