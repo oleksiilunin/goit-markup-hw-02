@@ -289,6 +289,9 @@ p {
 
 .team .img {
     display: block;
+
+    max-width: 100%;
+    height: auto;
 }
 
         /* Portfolio - Filter */
@@ -353,6 +356,9 @@ p {
 
 .card .img {
     display: block;
+    
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer */
