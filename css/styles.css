@@ -107,6 +107,10 @@ p {
 }
 
 .logo-header {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     color: var(--logo-header);
 }
 
