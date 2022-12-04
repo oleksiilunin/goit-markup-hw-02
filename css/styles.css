@@ -259,7 +259,23 @@ p {
 
     background-color: var(--team-backgrond-color);
 }
-    
+   
+.team .list {
+    margin-top: 50px;
+
+    text-align: center;
+}
+
+.team .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 270px;
+
+    background-color: var(--main-background-color);
+
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team .title {
     color: var(--secondary-text-color);
 
@@ -270,12 +286,6 @@ p {
     letter-spacing: 0.03em;
 }
 
-.team .list {
-    margin-top: 50px;
-
-    text-align: center;
-}
-
 .team .text {
     margin-top: 10px;
 
@@ -284,6 +294,10 @@ p {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.team .img {
+    display: block;
 }
 
         /* Portfolio - Filter */
