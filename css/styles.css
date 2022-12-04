@@ -20,6 +20,8 @@
     --footer-text-color: #FFFFFF96;
     --btn-accent-text-color: #FFFFFF;
     --btn-filter-bcg-color: #F5F4FA;
+    --btn-filter-border-color: transparent;
+    --header-line-border-color: #ECECEC;
 }
 
 html {
@@ -68,6 +70,21 @@ p {
     font-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* Container*/
+
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -75,8 +92,12 @@ p {
     padding-right: 15px;
 
     width: 1200px;
+}
 
-    outline: 2px solid tomato;
+/*Header*/
+
+.header {
+    border-bottom: 1px solid var(--header-line-border-color);
 }
 
 /* Logo */
@@ -146,24 +167,25 @@ p {
 }
 
 .slogan-title { 
-    margin-bottom: 0;    
+    margin: 0 auto;    
 
     color: var(--slogan-text-color);
 
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    outline: 2px solid tomato;
 }
 
 .btn-order {
-    display: block;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     padding: 10px 32px;
+    border-radius: 4px;
 
     background-color: var(--accent-color);
     color: var(--btn-accent-text-color);
@@ -180,6 +202,13 @@ p {
 
     /* Section */
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    outline: 1px solid tomato;
+}
+
 .section-title {
     color: var(--secondary-text-color);
 
@@ -189,24 +218,14 @@ p {
     letter-spacing: 0.03em;
 }
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+.section.work {
+    padding-top: 0;
 }
 
         /* Advantages */
 
-.advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.advantages .item {
+    max-width: 270px;
 }
 
 .advantages .title {
@@ -227,10 +246,6 @@ p {
 }
 
         /*Our Work*/
-
-.work {
-    padding-bottom: 94px;
-}
 
 .work .list {
     margin-top: 50px;
@@ -274,8 +289,12 @@ p {
         /* Portfolio - Filter */
 
 .btn-filter {
+    padding: 6px 22px;
+    border-radius: 4px;
+
     background-color: var(--btn-filter-bcg-color);
     color: var(--secondary-text-color);
+    border-color: var(--btn-filter-border-color);
 
     font-family: inherit;    
     font-weight: 500;
@@ -290,11 +309,16 @@ p {
 .btn-filter:hover,
 .btn-filter:focus {
     background-color: var(--accent-color);
-    color: var(--btn-accent-text-color)
+    color: var(--btn-accent-text-color);
+    border-color: var(--btn-filter-border-color);
 }
 
 
         /* Portfolio - Projects */
+
+.projects-list {
+    margin-top: 34px;
+}
 
 .projects .title {
     color: var(--secondary-text-color);
@@ -311,6 +335,19 @@ p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+}
+
+.caption {
+    padding: 20px 24px;
+
+    width: 370px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.card .img {
+    display: block;
 }
 
 /* Footer */

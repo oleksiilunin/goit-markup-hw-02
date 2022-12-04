@@ -13,98 +13,120 @@
 </head>
 <body>
      <!--Шапка сайта-->
-    <header>
-        <nav>
+    <header class="header">
+        <div class="container">
+            <nav>
             <a lang="en" href="/" class="logo">Web<span class="logo-header">Studio</span></a>
             <ul class="site-nav list">
                 <li><a href="./index.html" class="link">Студія</a></li>
                 <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
                 <li><a href="#" class="link">Контакти</a></li>
             </ul>
-        </nav>
-        <ul class="contacts list">
+            </nav>
+            <ul class="contacts list">
             <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-        </ul>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="projects">
-            <h1 class="hidden">Проєкти</h1>
-        <!--Фільтри до проєктів-->
-            <ul class="list">
-                <li><button type="button" class="btn-filter">Усі</button></li>
-                <li><button type="button" class="btn-filter">Веб-сайти</button></li>
-                <li><button type="button" class="btn-filter">Додатки</button></li>
-                <li><button type="button" class="btn-filter">Дизайн</button></li>
+            <div class="container">
+                <h1 class="visually-hidden">Проєкти</h1>
+            <!--Фільтри до проєктів-->
+                <ul class="list">
+                    <li><button type="button" class="btn-filter">Усі</button></li>
+                    <li><button type="button" class="btn-filter">Веб-сайти</button></li>
+                    <li><button type="button" class="btn-filter">Додатки</button></li>
+                    <li><button type="button" class="btn-filter">Дизайн</button></li>
                 <li><button type="button" class="btn-filter">Маркетинг</button></li>
-            </ul>
+                </ul>
 
-        <!--Проєкти-->
-            <ul class="list">
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/tekhnokriak.jpg" alt="Ноутбук з веб-сторінкою сайту на екрані.">
-                        <h2 class="title">Технокряк</h2>
-                        <p class="type">Веб-сайт</p>
-                    </a>  
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Два баскетболіста борються за м'яч.">
-                        <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                        <p class="type">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">                        
-                        <img width="370" src="./images/restoran-seafood.jpg" alt="На фоні риби напис The Seafood est.2001 restaurant.">
-                        <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>  
-                        <p class="type">Додаток</p>                 
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/proekt-prime.jpg" alt="Великі накладні чорні навушники на білому фоні.">
-                        <h2 class="title">Проєкт <span lang="en">Prime</span></h2>
-                        <p class="type">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/proekt-boxes.jpg" alt="Дві коробочки білого та світло-коричньового кольорівю.">
-                        <h2 class="title">Проєкт <span lang="en">Boxes</span></h2>
-                        <p class="type">Додаток</p>   
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/inspiration-has-no-borders.jpg" alt="Моноблок Apple iMac, на екрані якого сайт з великим написом Inspiration has no Borders">
-                        <h2 class="title"><span lang="en">Inspiration has no Borders</span></h2>
-                        <p class="type">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/vydannia-limited-edition.jpg" alt="Журнал, розкритий на сторінці зі слоганом I'm Limited Edition ">
-                        <h2 class="title">Видання <span lang="en">Limited Edition</span></h2>
-                        <p class="type">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/proekt-lab.jpg" alt="Біла бирка на мотузці з написом LABEL TAG PSD Mockup">
-                        <h2 class="title">Проєкт <span lang="en">LAB</span></h2>
-                        <p class="type">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="link">
-                        <img width="370" src="./images/growing-business.jpg" alt="Ноутбук з відкритою веб-сторінкою з написом GROWING BUSINESS">
-                        <h2 class="title"><span lang="en">Growing Business</span></h2>
-                        <p class="type">Додаток</p>
-                    </a>
-                </li>
-            </ul>
+            <!--Проєкти-->
+                <ul class="projects-list list">
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/tekhnokriak.jpg" alt="Ноутбук з веб-сторінкою сайту на екрані.">
+                            <div class="caption">
+                                <h2 class="title">Технокряк</h2>
+                                <p class="type">Веб-сайт</p>
+                            </div>
+                        </a>  
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Два баскетболіста борються за м'яч.">
+                        <div class="caption">
+                            <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                            <p class="type">Дизайн</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">                        
+                            <img class="img" width="370" src="./images/restoran-seafood.jpg" alt="На фоні риби напис The Seafood est.2001 restaurant.">
+                            <div class="caption">
+                                <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>  
+                                <p class="type">Додаток</p>
+                            </div>            
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/proekt-prime.jpg" alt="Великі накладні чорні навушники на білому фоні.">
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">Prime</span></h2>
+                                <p class="type">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/proekt-boxes.jpg" alt="Дві коробочки білого та світло-коричньового кольорівю.">
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">Boxes</span></h2>
+                                <p class="type">Додаток</p>
+                            </div>   
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/inspiration-has-no-borders.jpg" alt="Моноблок Apple iMac, на екрані якого сайт з великим написом Inspiration has no Borders">
+                            <div class="caption">
+                                 <h2 class="title"><span lang="en">Inspiration has no Borders</span></h2>
+                                <p class="type">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/vydannia-limited-edition.jpg" alt="Журнал, розкритий на сторінці зі слоганом I'm Limited Edition ">
+                            <div class="caption">
+                                <h2 class="title">Видання <span lang="en">Limited Edition</span></h2>
+                                <p class="type">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/proekt-lab.jpg" alt="Біла бирка на мотузці з написом LABEL TAG PSD Mockup">
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">LAB</span></h2>
+                                <p class="type">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card">
+                        <a href="#" class="link">
+                            <img class="img" width="370" src="./images/growing-business.jpg" alt="Ноутбук з відкритою веб-сторінкою з написом GROWING BUSINESS">
+                            <div class="caption">
+                                <h2 class="title"><span lang="en">Growing Business</span></h2>
+                                <p class="type">Додаток</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
      <!--Підвал сайту-->
