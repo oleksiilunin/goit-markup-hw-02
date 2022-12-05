@@ -96,6 +96,10 @@ p {
 /* Logo */
 
 .logo {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     color: var(--accent-color);
 
     font-family: 'Raleway', sans-serif;
@@ -106,20 +110,23 @@ p {
     letter-spacing: 0.03em;
 }
 
-.logo-header {
-    display: inline-block;
-    padding-top: 24px;
-    padding-bottom: 25px;
-
+.logo-header {   
     color: var(--logo-header);
 }
 
 /* Site nav */
 
 .site-nav {
+    display: flex;
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+    outline: 1px solid tomato;
 }
 
 .site-nav .link {
@@ -163,8 +170,9 @@ p {
     text-align: center;
 }
 
-.slogan-title { 
-    margin: 0 auto;    
+.slogan-title {     
+    margin-left: auto;
+    margin-right: auto;    
 
     color: var(--slogan-text-color);
 
